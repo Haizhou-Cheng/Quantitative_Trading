@@ -1,0 +1,6 @@
+{
+    "python.linting.mypyEnabled": true,
+    "jupyter.notebookFileRoot": "${workspaceFolder}/research",
+    "python.analysis.typeCheckingMode": "strict"
+  }
+  
