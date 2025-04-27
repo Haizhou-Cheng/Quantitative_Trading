@@ -24,6 +24,15 @@ Create .vscode file in your workspace and create setting.json file:
   "python.analysis.typeCheckingMode": "strict"
 }
 
+
+# 配置环境
+conda create -n Q_trading python=3.11.10
+
+conda deactivate    
+conda activate Q_trading
+
+
+
 # 安装 SSH 服务器
 Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
 # 启动 SSH 服务
